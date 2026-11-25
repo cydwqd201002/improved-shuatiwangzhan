@@ -135,7 +135,7 @@ npx serve .
 
 ## 题库从哪来
 
-本版本**不内置题库**，`js/data/banks.js` 是一份空骨架：
+本版本**不预置题库**，`js/data/banks.js` 是一份空骨架：
 
 ```js
 window.QUIZ_DATA = { "banks": [], "issues": [] };
@@ -254,7 +254,7 @@ improved-shuatiwangzhan/
     │   ├── core/
     │   │   ├── util.js               # DOM 构建、文本转义与 Markdown 摘要、40+ 内联图标、toast / 弹层 / 下载
     │   │   ├── grading.js            # 判题规则的唯一实现（单选 / 多选 / 判断 / 不计分）
-    │   │   ├── data.js               # 题库索引、内置+上传题库合并、章节与知识点、难度、检索
+    │   │   ├── data.js               # 题库索引、上传题库合并、章节与知识点、难度、检索
     │   │   ├── store.js              # 唯一持久化出口（localStorage 单一 JSON，含积分与称号）
     │   │   ├── engine.js             # 答题会话引擎：组卷、提交、计时、统计、历史、积分结算
     │   │   ├── i18n.js               # 界面语言（中文 / English / 日本語），约 100 KB 三语字典
